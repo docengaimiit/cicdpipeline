@@ -1,9 +1,57 @@
 <!doctype html>
-<html lang="en">
+<html>
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>CICD Demo</title>
+    <title>Login Page</title>
   </head>
-  <body></body>
+
+  <body style="font-family: Arial; background-color: #f2f2f2">
+    <center>
+      <div
+        style="
+          margin-top: 120px;
+          width: 320px;
+          padding: 30px;
+          background: white;
+          border-radius: 8px;
+          box-shadow: 0px 0px 10px #ccc;
+        "
+      >
+        <h2>Login</h2>
+
+        <form>
+          <label>Username</label><br />
+          <input
+            type="text"
+            placeholder="Enter username"
+            required
+            style="width: 90%; padding: 8px; margin: 8px 0"
+          /><br />
+
+          <label>Password</label><br />
+          <input
+            type="password"
+            placeholder="Enter password"
+            required
+            style="width: 90%; padding: 8px; margin: 8px 0"
+          /><br /><br />
+
+          <input
+            type="submit"
+            value="Login"
+            style="
+              width: 95%;
+              padding: 10px;
+              background: #4caf50;
+              color: white;
+              border: none;
+              border-radius: 4px;
+            "
+          />
+
+          <br /><br />
+          <a href="#">Forgot password?</a>
+        </form>
+      </div>
+    </center>
+  </body>
 </html>
